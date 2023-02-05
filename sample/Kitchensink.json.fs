@@ -1,4 +1,4 @@
-module KitchensinkExt
+module KitchensinkJson
 
 open System
 open System.Runtime.CompilerServices

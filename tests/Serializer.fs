@@ -3,8 +3,6 @@ module JeanTests.Serializer
 open System
 open Jean
 open Expecto
-open Kitchensink
-open KitchensinkExt
 
 // Serialization
 let tests =
@@ -135,10 +133,4 @@ let tests =
 
           let actual = Json.serialize encoder struc
           Expect.equal actual txt ""
-      }
-      test "Kitchensink" {
-          let p1 = testPayload
-          let jsonStr = Json.serialize Payload.make p1
-          let p2 = Json.parse Decoders.AsPayload jsonStr
-          Expect.equal p2 p1 ""
-      } ]
+      }]

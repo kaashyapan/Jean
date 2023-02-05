@@ -12,7 +12,7 @@ Also inspired by [Thoth](https://github.com/thoth-org/Thoth.Json) which is proba
 - Make it easy to write custom encoders & decoders
 
 ### Usage 
-See `tests/Kitchensink.fs` & `tests/KitchensinkExt.fs`
+See `sample/Kitchensink.fs` & `sample/Kitchensink.json.fs`
 ```fsharp
 open Jean
 

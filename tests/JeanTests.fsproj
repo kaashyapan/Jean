@@ -9,11 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Kitchensink.fs" />
-    <Compile Include="KitchensinkExt.fs" />
     <Compile Include="Serializer.fs" />
     <Compile Include="Deserializer.fs" />
-    <!--Compile Include="Jeanhelpers.fs" /-->
     <Compile Include="Program.fs" />
   </ItemGroup>
 

@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fable", "fable", "{F37D9CF8
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JeanTest", "fable\js\JeanTest.fsproj", "{0608F910-12B1-401E-BA7A-B0F2C8A886C1}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sample", "sample\Sample.fsproj", "{D025025B-4BFB-4B1D-8A09-ADBA92A341B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{0608F910-12B1-401E-BA7A-B0F2C8A886C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0608F910-12B1-401E-BA7A-B0F2C8A886C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0608F910-12B1-401E-BA7A-B0F2C8A886C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D025025B-4BFB-4B1D-8A09-ADBA92A341B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D025025B-4BFB-4B1D-8A09-ADBA92A341B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D025025B-4BFB-4B1D-8A09-ADBA92A341B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D025025B-4BFB-4B1D-8A09-ADBA92A341B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0608F910-12B1-401E-BA7A-B0F2C8A886C1} = {F37D9CF8-9715-4104-9233-7A51238F35BB}

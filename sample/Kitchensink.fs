@@ -13,12 +13,14 @@ type Pet =
     | Cat
     | Dog
 
+[<JsonConverter(NamingPolicy = "Camel", AllowNullFields = "true")>]
 type Payload =
     { Name: string
       Age: int
       Address: Address option
       Sex: Sex
       Pet: Pet option
+      [<JsonName("Chkt")>]
       Cht: Choice<bool, int> }
 
 let testPayload =
